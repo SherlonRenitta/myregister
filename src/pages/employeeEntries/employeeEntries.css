@@ -1,0 +1,259 @@
+.main {
+  background-color: #0a5e87;
+  width: 100%;
+  /* height: 100vh; */
+}
+.main_row {
+  height: 14vh;
+}
+.next_container {
+  height: 100%;
+  width: 97%;
+  background: #fff;
+  margin: auto;
+  border-radius: 20px;
+}
+.top_content {
+  background: #607d8b17;
+  margin: 0px !important;
+}
+.first_middle {
+  margin: 0px !important;
+}
+.remove_padding {
+  padding: 0px !important;
+}
+
+.image_hold {
+  width: 200px;
+  height: 88px;
+}
+.image_hold img {
+  width: 100px;
+  padding: 21px 13px;
+}
+.top_text_holder {
+  text-align: center;
+  padding: 20px 27px 20px 14px;
+  display: inline-block;
+}
+.goodmorning {
+  color: #0a5e87;
+  font-size: 21px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.date {
+  /* text-align: end; */
+  font-size: 12px;
+  color: #22c0ef;
+  font-weight: 500;
+  /* margin-right: 37px; */
+}
+.content_part {
+  height: 86vh;
+  overflow: auto;
+}
+.content_part_adjust {
+  width: 95%;
+  margin: auto;
+}
+.heading_one {
+  background: #0a5e872b;
+  padding: 4px 10px;
+  color: #cbad49;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+.list_two {
+  padding: 0px !important;
+}
+.clm_arrange {
+  padding: 0px !important;
+}
+.label_form {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #0a5e87;
+  font-weight: 500;
+}
+.male_label {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-right: 41px;
+}
+.form_input {
+  width: 100%;
+}
+.form_input_spl {
+  display: flex;
+}
+.form_input_spl input {
+  /* width: 21px; */
+  height: 37px;
+  border: 1px solid #8080806e;
+  border-radius: 3px;
+  color: #0a5e87;
+  padding: 10px 5px;
+  font-size: 15px;
+}
+.form_input input {
+  width: 100%;
+  height: 37px;
+  border: 1px solid #8080806e;
+  border-radius: 3px;
+  color: #0a5e87;
+  padding: 10px 5px;
+  font-size: 15px;
+}
+.form_input input:focus-visible {
+  border: 1px solid #cbad49;
+  outline: none;
+}
+.choose_gender {
+  width: 100%;
+  height: 46px;
+  border: 1px solid #8080806e;
+  border-radius: 3px;
+  color: #0a5e87;
+  padding: 10px 5px;
+}
+.form_input select:focus-visible {
+  border: 1px solid #cbad49;
+  outline: none;
+}
+.textarea_input {
+  width: 100%;
+  /* height: 37px; */
+  border: 1px solid #8080806e;
+  border-radius: 3px;
+  color: #0a5e87;
+  padding: 10px 5px;
+}
+.textarea_input:focus-visible {
+  border: 1px solid #cbad49;
+  outline: none;
+}
+.action_submit {
+  width: 100px;
+  margin-top: 10px;
+  float: right;
+}
+.process_end {
+  width: 100%;
+  height: 42px;
+  border: none;
+  background: #0a5e87;
+  color: #cbad49;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.process_end:hover {
+  outline: none;
+  border: 1px solid #cbad49;
+  color: #000;
+  font-weight: 500;
+}
+.text_paladin {
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: center;
+}
+.goodmorning_div {
+  display: inline-flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .image_width {
+    width: 50% !important;
+  }
+
+  .top_text_holder {
+    text-align: center;
+    padding: 12px 0px 12px 0px;
+  }
+  .main_row {
+    height: unset;
+  }
+  .image_hold img {
+    padding: 12px 0px 12px 0px;
+    width: 70px;
+  }
+  .action_submit {
+    width: 83px;
+  }
+  .process_end {
+    height: 37px;
+  }
+  .male_label {
+    margin-left: 11px;
+    margin-top: 5px;
+    margin-right: 47px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .male_label {
+    margin-left: 3px;
+    margin-top: 5px;
+    margin-right: 2px;
+  }
+}
+
+/* --------------- */
+
+::-webkit-inner-spin-button {
+  display: none;
+}
+::-webkit-calendar-picker-indicator {
+  background-color: white;
+}
+input[type="date"] {
+  font-size: 16px;
+}
+::-webkit-datetime-edit-text {
+  color: #0a5e87;
+}
+::-webkit-datetime-edit-month-field {
+  color: #0a5e87;
+}
+::-webkit-datetime-edit-day-field {
+  color: #0a5e87;
+}
+::-webkit-datetime-edit-year-field {
+  color: #0a5e87;
+}
+::-webkit-calendar-picker-indicator {
+  background-image: url(http://icons.iconarchive.com/icons/dakirby309/simply-styled/256/Calendar-icon.png);
+  background-position: center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  color: rgba(204, 204, 204, 0);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cbad49;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cbad49;
+}
